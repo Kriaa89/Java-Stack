@@ -55,7 +55,7 @@ public class HomeController {
         }
         
         session.setAttribute("userId", user.getId());
-        return "/books";
+        return "/success";
     }
 	@GetMapping("/success")
 	public String success(HttpSession session,Model model) {
