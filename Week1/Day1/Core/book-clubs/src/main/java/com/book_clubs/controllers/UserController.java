@@ -48,9 +48,10 @@ public class UserController {
 	            return "index";
 	     }
 	     session.setAttribute("userId", user.getId());
-	     return "/books";
+	     return "redirect:/books";
 
 	 }
+	 
 	 @GetMapping("/logout")
 		public String logout(HttpSession session) {
 			session.invalidate();

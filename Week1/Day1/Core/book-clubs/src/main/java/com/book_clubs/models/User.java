@@ -1,6 +1,6 @@
 package com.book_clubs.models;
 
-import java.awt.print.Book;
+import com.book_clubs.models.Book;
 import java.util.List;
 
 import jakarta.persistence.CascadeType;
